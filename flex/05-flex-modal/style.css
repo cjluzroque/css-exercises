@@ -12,7 +12,7 @@ body {
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .modal {
@@ -20,7 +20,29 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  padding: 15px;
+  display: flex;
+  gap: 15px;
 }
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 .icon {
   color: royalblue;
