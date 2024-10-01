@@ -24,6 +24,11 @@ img {
   flex: auto;
 }
 
+.subitems {
+  display: flex;
+  flex-direction: column;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
