@@ -1,5 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -14,7 +16,12 @@ img {
 }
 
 .items {
-  
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  flex: auto;
 }
 
 /* do not edit this footer */
