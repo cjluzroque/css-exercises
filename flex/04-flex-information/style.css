@@ -2,6 +2,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-direction: column;
+  gap: 32px;
 }
 
 img {
@@ -17,16 +18,19 @@ img {
 
 .items {
   display: flex;
-  flex-direction: row;
+  gap: 52px;
+  justify-content: center;
 }
 
 .text {
-  flex: auto;
+  text-align: center;
 }
 
 .subitems {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  max-width: 200px;
 }
 
 /* do not edit this footer */
